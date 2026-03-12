@@ -10,7 +10,7 @@ Welcome to the Lokey Lab Knowledge Base — a living reference for lab members, 
 
 - :material-code-braces: **Computational**
   
-  ML pipelines, virtual screening, molecular representations, and cheminformatics workflows.
+  Computational workflows, cheminformatics, virtual screening, and ML pipelines.
   
   [Get started →](computational/index.md)
 
@@ -34,7 +34,7 @@ Welcome to the Lokey Lab Knowledge Base — a living reference for lab members, 
 
 - :material-school: **Getting Started**
   
-  New to the lab? Start here — onboarding, contacts, culture, and where to find things.
+  New to the lab? Start here.
   
   [Get started →](getting-started/index.md)
 
