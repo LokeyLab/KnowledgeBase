@@ -5,7 +5,107 @@
          <lastmod>2026-03-12</lastmod>
     </url>
     <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/assays/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/assays/pampa/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/assays/shake-flask-logk/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/biology/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/biology/resazurin-cytotoxicity/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/biology/tissue-culture/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/design-rules/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/n-alkylation/boc-amino-acids/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/protecting-groups/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/protecting-groups/amine/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/protecting-groups/carboxylic-acid/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solid-phase-synthesis/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solid-phase-synthesis/btc-coupling/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solid-phase-synthesis/coupling-reactions/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solid-phase-synthesis/esterification/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solid-phase-synthesis/in-sequence-methylation/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solid-phase-synthesis/n-methylation/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solid-phase-synthesis/peptoid-coupling/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solid-phase-synthesis/sidechain-tyrosine-resin-loading/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solution-phase/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solution-phase/amide-coupling-dsc/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solution-phase/cyclization/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/chemistry/solution-phase/schotten-baumann/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
          <loc>https://lokeylab.github.io/KnowledgeBase/computational/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/computational/automation/</loc>
          <lastmod>2026-03-12</lastmod>
     </url>
     <url>
@@ -14,6 +114,10 @@
     </url>
     <url>
          <loc>https://lokeylab.github.io/KnowledgeBase/computational/ml-methods/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/computational/molecular-dynamics/</loc>
          <lastmod>2026-03-12</lastmod>
     </url>
     <url>
@@ -29,11 +133,35 @@
          <lastmod>2026-03-12</lastmod>
     </url>
     <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/getting-started/solvent-etiquette/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
          <loc>https://lokeylab.github.io/KnowledgeBase/getting-started/where-to-find-things/</loc>
          <lastmod>2026-03-12</lastmod>
     </url>
     <url>
-         <loc>https://lokeylab.github.io/KnowledgeBase/hardware/</loc>
+         <loc>https://lokeylab.github.io/KnowledgeBase/instruments/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/instruments/biotage/protocol/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/instruments/lcms/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/instruments/prelude/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/instruments/prelude/clean-after-run/</loc>
+         <lastmod>2026-03-12</lastmod>
+    </url>
+    <url>
+         <loc>https://lokeylab.github.io/KnowledgeBase/instruments/prelude/system-clean/</loc>
          <lastmod>2026-03-12</lastmod>
     </url>
     <url>
@@ -42,10 +170,6 @@
     </url>
     <url>
          <loc>https://lokeylab.github.io/KnowledgeBase/tutorials/</loc>
-         <lastmod>2026-03-12</lastmod>
-    </url>
-    <url>
-         <loc>https://lokeylab.github.io/KnowledgeBase/wet-lab/</loc>
          <lastmod>2026-03-12</lastmod>
     </url>
 </urlset>
