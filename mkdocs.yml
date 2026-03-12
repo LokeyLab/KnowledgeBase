@@ -1,0 +1,110 @@
+site_name: Lokey Lab Knowledge Base
+site_description: Comprehensive documentation for the Lokey Lab — computational methods, wet lab protocols, software, hardware, and institutional knowledge.
+site_url: https://lokeylab.github.io/KnowledgeBase
+repo_url: https://github.com/LokeyLab/KnowledgeBase
+repo_name: LokeyLab/KnowledgeBase
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/LokeyLab
+  generator: false
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - getting-started/index.md
+      - Where to Find Things: getting-started/where-to-find-things.md
+  - Computational:
+      - computational/index.md
+      - Cheminformatics: computational/cheminformatics/index.md
+      - Virtual Screening: computational/virtual-screening/index.md
+      - ML Methods: computational/ml-methods/index.md
+  - Wet Lab:
+      - wet-lab/index.md
+  - Software & Tools:
+      - software/index.md
+  - Hardware & Facilities:
+      - hardware/index.md
+  - Tutorials:
+      - tutorials/index.md
+  - Contributing:
+      - contributing/index.md
