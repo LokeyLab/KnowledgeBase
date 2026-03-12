@@ -1,5 +1,5 @@
 site_name: Lokey Lab Knowledge Base
-site_description: Comprehensive documentation for the Lokey Lab — computational methods, wet lab protocols, software, hardware, and institutional knowledge.
+site_description: Comprehensive documentation for the Lokey Lab — computational methods, chemistry protocols, assays, instruments, software, and institutional knowledge.
 site_url: https://lokeylab.github.io/KnowledgeBase
 repo_url: https://github.com/LokeyLab/KnowledgeBase
 repo_name: LokeyLab/KnowledgeBase
@@ -60,6 +60,9 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
   - footnotes
@@ -93,18 +96,56 @@ nav:
   - Getting Started:
       - getting-started/index.md
       - Where to Find Things: getting-started/where-to-find-things.md
+      - Solvent Etiquette: getting-started/solvent-etiquette.md
+  - Chemistry:
+      - chemistry/index.md
+      - Solid-Phase Synthesis:
+          - chemistry/solid-phase-synthesis/index.md
+          - Coupling Reactions: chemistry/solid-phase-synthesis/coupling-reactions.md
+          - N-Methylation: chemistry/solid-phase-synthesis/n-methylation.md
+          - In-Sequence Methylation: chemistry/solid-phase-synthesis/in-sequence-methylation.md
+          - Sidechain Tyrosine Resin Loading: chemistry/solid-phase-synthesis/sidechain-tyrosine-resin-loading.md
+          - Esterification: chemistry/solid-phase-synthesis/esterification.md
+          - BTC Coupling: chemistry/solid-phase-synthesis/btc-coupling.md
+          - Peptoid Coupling: chemistry/solid-phase-synthesis/peptoid-coupling.md
+      - Solution Phase:
+          - chemistry/solution-phase/index.md
+          - Cyclization: chemistry/solution-phase/cyclization.md
+          - Amide Coupling (DSC): chemistry/solution-phase/amide-coupling-dsc.md
+          - Schotten-Baumann Reaction: chemistry/solution-phase/schotten-baumann.md
+      - Protecting Groups:
+          - chemistry/protecting-groups/index.md
+          - Amine Protecting Groups: chemistry/protecting-groups/amine.md
+          - Carboxylic Acid Protecting Groups: chemistry/protecting-groups/carboxylic-acid.md
+      - N-Alkylation of Boc Amino Acids: chemistry/n-alkylation/boc-amino-acids.md
+      - Design Rules & Library Design: chemistry/design-rules.md
+  - Biology:
+      - biology/index.md
+      - Tissue Culture: biology/tissue-culture.md
+      - Resazurin Cytotoxicity: biology/resazurin-cytotoxicity.md
+  - Assays:
+      - assays/index.md
+      - PAMPA: assays/pampa.md
+      - Shake Flask LogK: assays/shake-flask-logk.md
   - Computational:
       - computational/index.md
       - Cheminformatics: computational/cheminformatics/index.md
       - Virtual Screening: computational/virtual-screening/index.md
       - ML Methods: computational/ml-methods/index.md
-  - Wet Lab:
-      - wet-lab/index.md
+      - Molecular Dynamics: computational/molecular-dynamics/index.md
+      - Automation: computational/automation/index.md
+  - Instruments:
+      - instruments/index.md
+      - Prelude:
+          - instruments/prelude/index.md
+          - Clean After Run: instruments/prelude/clean-after-run.md
+          - System Clean: instruments/prelude/system-clean.md
+      - Biotage: instruments/biotage/protocol.md
+      - LC/MS: instruments/lcms/index.md
   - Software & Tools:
       - software/index.md
-  - Hardware & Facilities:
-      - hardware/index.md
   - Tutorials:
       - tutorials/index.md
   - Contributing:
       - contributing/index.md
+  - Lab Website: https://lokeylab.sites.ucsc.edu/

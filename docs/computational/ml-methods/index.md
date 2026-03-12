@@ -1,3 +1,6 @@
 # ML Methods
 
-!!! note "Add articles here as methods are finalized and documented"
+Machine learning approaches for property prediction, molecular design, and data analysis.
+
+!!! note "Coming Soon"
+    ML methods and model documentation will be added here.

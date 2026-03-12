@@ -1,9 +1,11 @@
 # Computational Methods
 
-This section covers computational workflows, cheminformatics, virtual screening, and machine learning methods used in the Lokey Lab.
+Computational tools, methods, and workflows used in the Lokey Lab.
 
-## Subsections
+## Sections
 
-- [Cheminformatics](cheminformatics/index.md)
-- [Virtual Screening](virtual-screening/index.md)
-- [ML Methods](ml-methods/index.md)
+- [Cheminformatics](cheminformatics/index.md) — Chemical informatics tools and methods
+- [Virtual Screening](virtual-screening/index.md) — Virtual screening workflows
+- [ML Methods](ml-methods/index.md) — Machine learning approaches
+- [Molecular Dynamics](molecular-dynamics/index.md) — MD simulations
+- [Automation](automation/index.md) — Automated analysis pipelines

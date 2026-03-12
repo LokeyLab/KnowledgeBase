@@ -1,0 +1,284 @@
+                    <div id="page-content">
+                        
+
+<table style="margin:0; padding:0">
+<tr>
+<td style="margin:0; padding:0">
+<div id="toc">
+<div id="toc-action-bar"><a href="javascript:;" onclick="WIKIDOT.page.listeners.foldToc(event)">Fold</a><a style="display: none" href="javascript:;" onclick="WIKIDOT.page.listeners.unfoldToc(event)">Unfold</a></div>
+<div class="title">Table of Contents</div>
+<div id="toc-list">
+<div style="margin-left: 2em;"><a href="#toc0">Product List</a></div>
+<div style="margin-left: 3em;"><a href="#toc1">Equipment</a></div>
+<div style="margin-left: 3em;"><a href="#toc2">Chemicals</a></div>
+<div style="margin-left: 2em;"><a href="#toc3">Process</a></div>
+<div style="margin-left: 3em;"><a href="#toc4">Overview</a></div>
+<div style="margin-left: 3em;"><a href="#toc5">Notes</a></div>
+<div style="margin-left: 3em;"><a href="#toc6">Prepare Solutions</a></div>
+<div style="margin-left: 3em;"><a href="#toc7">Prepare Membrane Plate</a></div>
+<div style="margin-left: 3em;"><a href="#toc8">Load Sample Plates</a></div>
+<div style="margin-left: 3em;"><a href="#toc9">Run Assay</a></div>
+<div style="margin-left: 3em;"><a href="#toc10">Prepare Analytical Samples</a></div>
+<div style="margin-left: 3em;"><a href="#toc11">Analyze / Calculate</a></div>
+<div style="margin-left: 4em;"><a href="#toc12">Analyze</a></div>
+<div style="margin-left: 4em;"><a href="#toc13">Calculate</a></div>
+</div>
+</div>
+</td>
+</tr>
+</table>
+<h2 id="toc0"><span>Product List</span></h2>
+<h3 id="toc1"><span>Equipment</span></h3>
+<ul>
+<li>96-well Teflon block acceptor plate (Millipore MSSACCEPT0R)</li>
+<li>96-well 0.45um Teflon membrane donor plates (Millipore MAIPNTR10 or MAIPN4550)</li>
+<li>96-well plates for HPLC-MS sampling (optional)</li>
+<li>96-well plate seals (heat or sticky aluminum foil) (optional)</li>
+<li>Deep-well (~2mL) 96-well plate (optional)</li>
+<li>Development chamber (e.g. desiccator chamber without desiccant)</li>
+<li>12-channel pipette (50-300 uL) (optional)</li>
+<li>Many extra tips, pre-racked</li>
+<li>Multichannel pipette solvent wells</li>
+</ul>
+<h3 id="toc2"><span>Chemicals</span></h3>
+<ul>
+<li>Analytes, 200uM in DMSO</li>
+<li>Lecithin (reasonably high purity is important; 90% is affordable and satisfactory)</li>
+<li>Dodecane (99+% purity)</li>
+<li>1X PBS pH7.4 buffer</li>
+<li>Methanol</li>
+<li>DMSO</li>
+<li>Propranolol, 200uM in DMSO (optional)</li>
+</ul>
+<h2 id="toc3"><span>Process</span></h2>
+<h3 id="toc4"><span>Overview</span></h3>
+<ol>
+<li>Prepare solutions</li>
+<li>Prepare membrane plate</li>
+<li>Load sample plates</li>
+<li>Run assay</li>
+<li>Prepare analytical samples</li>
+<li>Analyze / Calculate</li>
+</ol>
+<h3 id="toc5"><span>Notes</span></h3>
+The PAMPA assay is standardized to use <strong>5% DMSO in all solutions</strong>, increasing ease and efficiency for DMSO stocks.<br />
+<strong>Target Concentration:</strong> 1uM (Orbitrap) or 10uM (LTQ)<br />
+<strong>Sample Limit:</strong> (quadruplicate): 24 compounds per 96-well plate<br />
+Multichannel recommended (but not necessary)<br />
+<strong>Permeability Standards:</strong><br />
+<table class="wiki-content-table">
+<tr>
+<th>Compound</th>
+<th>Pe (x10^-6)</th>
+<th>Std Dev</th>
+<th>Comments</th>
+</tr>
+<tr>
+<td>Propanolol</td>
+<td>?</td>
+<td>?</td>
+<td>Polar, might not elute in certain chromatography methods</td>
+</tr>
+<tr>
+<td>Progesterone</td>
+<td>7.0</td>
+<td>2.4</td>
+<td></td>
+</tr>
+<tr>
+<td>Carbamazepine</td>
+<td>9.0</td>
+<td>0.5</td>
+<td>also useful as hydrocarbon partition coefficient standard</td>
+</tr>
+<tr>
+<td>1NMe3</td>
+<td>3.0</td>
+<td>1.0</td>
+<td></td>
+</tr>
+<tr>
+<td>CSA</td>
+<td>0.5</td>
+<td>0.2</td>
+<td></td>
+</tr>
+</table>
+<p>There are two periods of time where the assay is time sensitive—reserve some undistracted time:</p>
+<ul>
+<li>Everything between preparing the donor plate membrane, and starting the assay.</li>
+<li>Transferring solutions from the finished assay to sealed plates/vials for analysis.</li>
+</ul>
+<p>It can be very helpful to create a plate layout spreadsheet with exact masses annotated.</p>
+<h3 id="toc6"><span>Prepare Solutions</span></h3>
+<p>Prepare target analyte (typically from a stock concentration in DMSO) to a dilution of 1-10 uM in a buffer of <strong>1X PBS pH 7.4 and 5% DMSO</strong>.</p>
+<ul>
+<li>If analyte is 200uM in DMSO; add 50uL to 950uL of 1X PBS.</li>
+<li>Preparing these in deep-well plates makes later transfer (with a multichannel pipette) easier</li>
+<li>Mix well with pipette</li>
+<li>Be sure to calculate enough volume for preparing the recovery plate from this stock!</li>
+</ul>
+<p>Prepare a 1% lecithin in dodecane solution in an Eppendorf tube, and sonicate until fully mixed (~5 min).</p>
+<ul>
+<li>10mg of lecithin in 1mL of dodecane</li>
+<li>Always prepare fresh</li>
+</ul>
+<h3 id="toc7"><span>Prepare Membrane Plate</span></h3>
+<p>Inspect membranes for tears<br />
+Using a pipette (single or multichannel), gently dispense 5uL of <strong>1% lecithin / dodecane solution</strong> onto donor plate membrane</p>
+<ul>
+<li>Turn plate “upside-down” for ease of tip access</li>
+<li>Gently apply single 5uL drops of solution onto the membrane</li>
+<li>Hang drop from tip right above membrane, then expel air to release drop</li>
+<li>Do not touch the membrane with tip!</li>
+<li>Multichannel pipettes can be used, but time efficiency is not urgent here</li>
+<li>Ignore any observational disparities between membranes; as long as it’s not a tear, the results work out consistently</li>
+<li>Let the plate sit for at least 10 minutes (while preparing other samples) for the lipids to adsorb fully</li>
+</ul>
+<h3 id="toc8"><span>Load Sample Plates</span></h3>
+<p>Using a multichannel pipette and solvent reservoir, dispense 300 uL of <strong>1X PBS 5% DMSO buffer</strong> into the acceptor plate wells</p>
+<ul>
+<li>Use good pipette technique; volume disparities will influence results</li>
+<li>Cover the plate with a loose cover to minimize evaporation</li>
+</ul>
+<p>Using a multichannel pipette, transfer 150 uL of the <strong>10uM analyte in 1X PBS 5% DMSO</strong> into the donor plate wells</p>
+<ul>
+<li>Gently dispense solutions into the donor plate, running the solution down the side of the well to minimize membrane disturbance</li>
+<li>Use good pipette technique; volume disparities will influence results</li>
+<li><strong>Important:</strong> save (and seal) source analyte stock for recovery analysis!</li>
+</ul>
+<p>(Optional) Reverse technique</p>
+<ul>
+<li>The analyte can be applied to the larger Teflon-block plate instead (requiring a larger volume of analyte!) in order to double the signal from the membrane plate.</li>
+<li>Useful for especially-dilute analytes, or slowly-permeating analytes</li>
+<li>Adjust volumes appropriately in the calculations</li>
+</ul>
+<h3 id="toc9"><span>Run Assay</span></h3>
+<p>Gently lower the donor plate wells into the acceptor plate wells.</p>
+<ul>
+<li>Confirm the absence of any bubbles; these will impair PAMPA performance</li>
+<li>Gently lift and re-lower the donor plate if observed</li>
+<li>Place a plastic cover over the whole assembly (not airtight, just protective)</li>
+<li>Record current time / start a timer</li>
+</ul>
+<p>Gently transfer the assembly to a moist separate chamber (not necessarily airtight)</p>
+<ul>
+<li>Wet some paper towels, to lie over and under the assembly</li>
+<li>Temperature control has been shown to be important for results, but we do not bother</li>
+</ul>
+<p>Allow assembly to sit for 10-20 hr</p>
+<ul>
+<li>14-16 hr is standard; adjust for faster- or slower-permeating analytes</li>
+<li>The PAMPA Pe calculations account for assay duration</li>
+</ul>
+<p>Gently separate the plates</p>
+<ul>
+<li>Slowly, to minimize any contamination in the acceptor plate (very full wells)</li>
+<li>Record total time of immersion</li>
+<li>Immediately begin sample transfer</li>
+</ul>
+<h3 id="toc10"><span>Prepare Analytical Samples</span></h3>
+<p>Repeat for the acceptor plate, donor plate, and source stock 10 uM deep-well plate (“recovery plate”):<br />
+Transfer 100 uL from each well to a labeled 96-well plate for HPLC-MS injection.</p>
+<ul>
+<li>Use good pipette technique</li>
+<li>Mix well with pipette sparging!</li>
+<li>Use good pipette technique</li>
+<li>Switch tips between transfers</li>
+<li>Seal the plate immediately upon finishing the transfer (Plate sealer, or sticky aluminum foil)</li>
+</ul>
+<h3 id="toc11"><span>Analyze / Calculate</span></h3>
+<h4 id="toc12"><span>Analyze</span></h4>
+<p>Analyze all simples within 24-48 hr after running the assay</p>
+<ul>
+<li>There is anecdotal evidence that compounds decompose or crash out, or that solvent levels change</li>
+</ul>
+<p>Create an appropriate HPLC-MS method; suggestions:</p>
+<ul>
+<li>3-10 min total time for efficiency and generality</li>
+<li>1-1.5min high-polarity wash (to waste; not to MS) to remove PBS buffer</li>
+<li>Ramp up to (and hold at) 100% acetonitrile, ensuring good elution of analyte (and injection standard)</li>
+<li>Consider using single ion monitoring to increase sensitivity, and ease analysis.</li>
+</ul>
+<p>Consider frequent rinse methods (methanol or DMSO)</p>
+<ul>
+<li>Minimize analyte carry-over</li>
+<li>Reduce analyte precipitation in the injection loop (a frequent problem with the polar PBS wash)</li>
+<li>Ensure that wash solvent is appropriate to solubilize analyte and PBS buffer</li>
+</ul>
+<p>Avoid sequential injection of compounds with the same mass in sequence to avoid carry-over interference<br />
+Quantify TIC intensity; not UV absorbance</p>
+<h4 id="toc13"><span>Calculate</span></h4>
+<strong>Parameters</strong><br />
+<table class="wiki-content-table">
+<tr>
+<td>Active surface area of membrane (mm2)</td>
+<td>Msa = 240</td>
+</tr>
+<tr>
+<td>Volume of acceptor well (uL)</td>
+<td>Va = 300</td>
+</tr>
+<tr>
+<td>Volume of donor well (uL)</td>
+<td>Vd = 150</td>
+</tr>
+<tr>
+<td>Assay run time (s)</td>
+<td>Ts</td>
+</tr>
+<tr>
+<td>Donor intensity</td>
+<td>Id</td>
+</tr>
+<tr>
+<td>Acceptor intensity</td>
+<td>Ia</td>
+</tr>
+<tr>
+<td>Recovery intensity</td>
+<td>Ir</td>
+</tr>
+</table>
+<p><strong>Calculations</strong></p>
+<ul>
+<li>Analyte equilibrium</li>
+</ul>
+<span class="equation-number">(1)</span>
+<div class="math-equation" id="equation-1">\begin{align} AnalyteEquil =\frac{(Ia*Va)+(Id*Vd)}{Va + Vd} \end{align}</div>
+<ul>
+<li>%Transmittance; discard data if &gt;95%</li>
+</ul>
+<span class="equation-number">(2)</span>
+<div class="math-equation" id="equation-2">\begin{align} T = \frac{Ia}{AnalyteEquil} \end{align}</div>
+<ul>
+<li>%Recovery; low values represent material loss (aggregation or adherence)</li>
+</ul>
+<span class="equation-number">(3)</span>
+<div class="math-equation" id="equation-3">\begin{align} R =\frac{(Ia*Va)+(Id*Vd)}{Ir*Vd} \end{align}</div>
+<ul>
+<li>constant</li>
+</ul>
+<span class="equation-number">(4)</span>
+<div class="math-equation" id="equation-4">\begin{align} C =\frac{Vd*Va}{(Vd+Va)*Msa*Ts} \end{align}</div>
+<ul>
+<li>Pe (x10^-6), often displayed in log scale</li>
+</ul>
+<span class="equation-number">(5)</span>
+<div class="math-equation" id="equation-5">\begin{align} P_e = (-C * \ln(1-T)) * 10^{-6} \end{align}</div>
+
+                    </div>
+
+                    
+
+
+                    
+
+
+                    
+
+
+
+                    
+
+                    <div id="page-info-break"></div>
